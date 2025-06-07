@@ -1,2 +1,13 @@
 gamma: 0.99
-lr: 0.0025
+lr: 0.00025
+target_update_freq: 1000
+buffer_size: 100000
+save_interval: 10000
+epsilon_start: 1.0
+epsilon_final: 0.05
+epsilon_decay: 47000
+epsilon_type: "linear"
+hidden_size: 256
+batch_size: 32
+
+
